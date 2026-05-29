@@ -9,49 +9,62 @@
   <link rel="canonical" href="https://tapis-deco-suisse.com/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23301816'/%3E%3Cpath d='M13 17h38v30H13z' fill='%23c9a36a'/%3E%3Cpath d='M17 21h30v22H17z' fill='%23902320'/%3E%3Cpath d='M23 27h18v10H23z' fill='%23f5ead8'/%3E%3C/svg%3E" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23f6efe4'/%3E%3Crect x='10' y='14' width='44' height='36' fill='none' stroke='%237a1f1c' stroke-width='2'/%3E%3Cline x1='10' y1='32' x2='54' y2='32' stroke='%23b48a4a' stroke-width='1'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <main class="hero" aria-labelledby="page-title">
-    <section class="scene" aria-hidden="true">
-      <div class="frame"></div>
-      <div class="lamp"><span></span></div>
-      <div class="armchair"></div>
-      <div class="rug">
-        <span></span><span></span><span></span>
-      </div>
-    </section>
+  <div class="page">
+    <header class="topbar">
+      <p class="eyebrow">Tapis &middot; Ameublement &middot; Décoration &middot; Suisse</p>
+    </header>
 
-    <section class="content-card">
-      <p class="kicker">Tapis • Ameublement • Décoration</p>
-      <h1 id="page-title">Tapis Déco Suisse</h1>
-      <p class="subtitle">Le site est en préparation.</p>
-      <p class="lead">
-        Prochainement : une adresse suisse dédiée aux tapis d’Orient et contemporains,
-        à la restauration, au nettoyage, à la réparation et aux conseils déco pour vos intérieurs.
-      </p>
+    <main class="container" aria-labelledby="page-title">
+      <section class="hero">
+        <h1 id="page-title">
+          Tapis Déco <em>Suisse</em>
+        </h1>
+        <p class="serif-sub">Le site est en préparation.</p>
+        <p class="lead">
+          Maison suisse dédiée aux tapis d’Orient et contemporains :
+          restauration, nettoyage, réparation et conseils en décoration intérieure,
+          au service des particuliers et des architectes.
+        </p>
+      </section>
 
-      <div class="services" aria-label="Services proposés">
-        <span>Tapis d’Orient</span>
-        <span>Tapis contemporains</span>
-        <span>Nettoyage & restauration</span>
-        <span>Réparation</span>
-        <span>Décoration intérieure</span>
-      </div>
+      <hr class="rule" aria-hidden="true" />
 
-      <div class="contact-panel" aria-label="Coordonnées de contact">
-        <a class="contact-link" href="mailto:tapisdecosuisse@sunrise.ch">
-          <span>Écrivez-nous</span>
-          <strong>tapisdecosuisse@sunrise.ch</strong>
-        </a>
-        <a class="contact-link" href="tel:+41765286419">
-          <span>Appelez-nous</span>
-          <strong>076 528 64 19</strong>
-        </a>
-      </div>
-    </section>
-  </main>
+      <section class="block" aria-labelledby="savoirfaire-title">
+        <h2 id="savoirfaire-title" class="block-title">Notre savoir-faire</h2>
+        <ul class="chips" aria-label="Services proposés">
+          <li>Tapis d’Orient</li>
+          <li>Tapis contemporains</li>
+          <li>Nettoyage &amp; restauration</li>
+          <li>Réparation</li>
+          <li>Décoration intérieure</li>
+        </ul>
+      </section>
+
+      <hr class="rule" aria-hidden="true" />
+
+      <section class="block" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="block-title">Contact</h2>
+        <div class="contacts" aria-label="Coordonnées">
+          <a class="contact-card" href="mailto:tapisdecosuisse@sunrise.ch">
+            <span class="contact-label">Courriel</span>
+            <strong class="contact-value">tapisdecosuisse@sunrise.ch</strong>
+          </a>
+          <a class="contact-card" href="tel:+41765286419">
+            <span class="contact-label">Téléphone</span>
+            <strong class="contact-value">076 528 64 19</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Site en préparation &mdash; &copy; 2026 Tapis Déco Suisse &middot; Suisse</p>
+    </footer>
+  </div>
 </body>
 </html>
